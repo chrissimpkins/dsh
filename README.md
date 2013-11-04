@@ -1,18 +1,10 @@
 # Dsh
 
-A command line interface to search programming language documentation in the Dash application (Mac OSX) with optional docset keyword filters.
+A command line search interface to programming language documentation in the Dash application (Mac OSX) with optional docset keyword filters.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'dsh'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install the gem with the following command:
 
     $ gem install dsh
 
