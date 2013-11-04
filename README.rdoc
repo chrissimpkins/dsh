@@ -3,7 +3,6 @@
 Author::  Christopher Simpkins
 Copyright:: Copyright (c) 2013 Christopher Simpkins
 
-
 License:: mit, see LICENSE.txt
 
 == Links
