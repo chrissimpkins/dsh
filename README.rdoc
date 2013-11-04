@@ -1,4 +1,4 @@
-= dsh - A command line search interface to programming language documentation in the Mac OSX Dash application.
+= dsh - A command line search interface to programming language documentation in the Mac OSX application, Dash.
 
 Author::  Christopher Simpkins
 Copyright:: Copyright (c) 2013 Christopher Simpkins
