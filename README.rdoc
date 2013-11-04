@@ -9,11 +9,14 @@ License:: mit, see LICENSE.txt
 == Links
 
 * {Source on Github}[https://github.com/chrissimpkins/dsh]
-* RDoc[LINK TO RDOC.INFO]
 
 == Install
 
+Install the gem with the following command:
+
+    $ gem install dsh
+
 == Examples
 
-== Contributing
+
 
