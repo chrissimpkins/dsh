@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = Dsh::VERSION
   spec.authors       = ["Chris Simpkins"]
   spec.email         = ["git.simpkins@gmail.com"]
-  spec.description   = %q{A command line interface to search programming language documentation in the Dash application (Mac OSX) with optional docset keyword filters.}
+  spec.description   = %q{A command line search interface to programming language documentation in the Dash application (Mac OSX) with optional docset keyword filters.}
   spec.summary       = %q{dsh}
   spec.homepage      = "http://rubygems.org/gems/dsh"
   spec.license       = "MIT"
