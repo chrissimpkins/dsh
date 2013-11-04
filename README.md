@@ -30,7 +30,7 @@ dsh string
 Restrict search to documentation for a specific language:
 
 ```
-dsh -l python print
+dsh -l python3 print
 ```
 	
 ## License
