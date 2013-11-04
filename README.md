@@ -14,7 +14,7 @@ To search across all language docsets, simply enter your search query after the 
 
 	dsh <search_term(s)>
 
-To restrict your search to a specific programming language/framework docset, use the `-l` or `--lang` flags with a docset keyword as the argument:
+To restrict your search to a specific programming language/framework docset, use the `-l` flag with a docset keyword as the argument:
 
 	dsh -l <language> <query>
 
