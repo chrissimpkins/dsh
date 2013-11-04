@@ -20,7 +20,7 @@ class App
     end
   end
 
-  description "A command line interface to search programming language documentation in the Dash application (Mac OSX) with optional docset keyword filters."
+  description "A command line search interface to programming language/framework documentation in the Dash application (Mac OSX) with optional docset keyword filters."
   # Docset Language Flag:
   on("-l <language>","Language docset filter")
   # Required argument
