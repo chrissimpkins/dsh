@@ -1,0 +1,21 @@
+= dsh - A command line interface to programming language documentation in the Mac OSX Dash application.
+
+Author::  Christopher Simpkins
+Copyright:: Copyright (c) 2013 Christopher Simpkins
+
+
+License:: mit, see LICENSE.txt
+
+
+
+== Links
+
+* {Source on Github}[LINK TO GITHUB]
+* RDoc[LINK TO RDOC.INFO]
+
+== Install
+
+== Examples
+
+== Contributing
+

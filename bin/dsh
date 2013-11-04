@@ -1,0 +1,34 @@
+#!/usr/bin/env ruby
+
+require 'optparse'
+require 'methadone'
+require 'open3'
+require 'dsh.rb'
+
+class App
+  include Methadone::Main
+  #include Methadone::CLILogging
+
+  main do |query|
+    language = options["l"]
+    search_command = Dsh.makeCommand(query, language)
+    stdout_str, stderr_str, status = Open3.capture3(search_command)
+    unless status.exitstatus == 0
+      STDERR.puts "Unable to launch Dash."
+      STDERR.puts stderr_str
+      exit 1
+    end
+  end
+
+  description "A command line interface to search programming language documentation in the Dash application (Mac OSX) with optional docset keyword filters."
+  # Docset Language Flag:
+  on("-l <language>","Language docset filter")
+  # Required argument
+  arg :query, :required
+
+  version Dsh::VERSION
+  
+  #use_log_level_option
+
+  go!
+end
