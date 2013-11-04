@@ -18,5 +18,11 @@ Install the gem with the following command:
 
 == Examples
 
+Search across all Dash docsets:
 
+	$ dsh string
+
+Restrict search to documentation for a specific language:
+
+	$ dsh -l ruby puts
 
