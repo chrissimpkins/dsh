@@ -22,13 +22,13 @@ You can find the language docset keyword in Preferences > Docsets:
 
 <img src="https://raw.github.com/chrissimpkins/dsh/master/img/docset_keywords.png" width="598" height="530" alt="Dash Docset Keywords">
 
-Enter the keyword that is displayed in your preferences **without** the colon symbol (:).	
+Enter the keyword that is displayed in your preferences **without** the colon symbol (:).
 
 ## Examples
 
 Search across all Dash docsets:
 
-``` 
+```
 dsh string
 ```
 
@@ -37,8 +37,16 @@ Restrict search to documentation for a specific language:
 ```
 dsh -l python3 print
 ```
-	
+
 ## License
 MIT License
+
+## Changelog
+
+**v0.2.0** - exception handling for incorrect CL switches/flags/arguments
+
+**v0.1.1** - documentation update and CL flag changes
+
+**v0.1.0** - initial release
 
 ✪ Chris
