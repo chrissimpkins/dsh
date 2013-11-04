@@ -1,6 +1,6 @@
 # dsh [![Gem Version](https://badge.fury.io/rb/dsh.png)](http://badge.fury.io/rb/dsh)
 
-A command line search interface to programming language documentation in the [Dash application (Mac OSX)](http://kapeli.com/dash) with optional docset keyword filters.
+A command line search interface to programming language/framework documentation in the [Dash application (Mac OSX)](http://kapeli.com/dash) with optional docset keyword filters.
 
 ## Installation
 
