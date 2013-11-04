@@ -1,10 +1,10 @@
 # dsh [![Gem Version](https://badge.fury.io/rb/dsh.png)](http://badge.fury.io/rb/dsh)
 
-A command line search interface to programming language documentation in the Dash application (Mac OSX) with optional docset keyword filters.
+A command line search interface to programming language documentation in the [Dash application (Mac OSX)](http://kapeli.com/dash) with optional docset keyword filters.
 
 ## Installation
 
-Install the gem with the following command:
+Install the Ruby gem with the following command:
 
     $ gem install dsh
 
@@ -14,8 +14,24 @@ To search across all language docsets, simply enter your search query after the 
 
 	dsh <search_term(s)>
 
-To restrict your search to a specific programming language docset, use the `-l` or `--lang` flags with the docset keyword as the argument:
+To restrict your search to a specific programming language docset, use the `-l` or `--lang` flags with a docset keyword as the argument:
 
-	dsh -l ruby puts
+	dsh -l <language> <query>
+	
 
+## Examples
 
+Search across all Dash docsets:
+
+``` 
+dsh string
+```
+
+Restrict search to documentation for a specific language:
+
+```
+dsh -l python print
+```
+	
+## License
+MIT License
