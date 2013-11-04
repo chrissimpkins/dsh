@@ -10,12 +10,13 @@ class App
   #include Methadone::CLILogging
 
   main do |query|
-    language = options["l"]
-    search_command = Dsh.makeCommand(query, language)
-    stdout_str, stderr_str, status = Open3.capture3(search_command)
-    unless status.exitstatus == 0
-      STDERR.puts "Unable to launch Dash."
-      STDERR.puts stderr_str
+    begin
+      language = options["l"]
+      search_command = Dsh.makeCommand(query, language)
+      Dsh.runit(search_command)
+    rescue
+      STDERR.puts "Kapow! You just blew a gasket. Probably a syntax issue. Please check your options + arguments and try again."
+      STDERR.puts e.message
       exit 1
     end
   end
@@ -27,8 +28,12 @@ class App
   arg :query, :required
 
   version Dsh::VERSION
-  
-  #use_log_level_option
 
-  go!
+  #use_log_level_option
+  begin
+    go!
+  rescue
+    STDERR.puts "Kapow! dsh just blew a gasket. Probably a syntax issue. Please check your options + arguments and try again."
+    exit 1
+  end
 end
