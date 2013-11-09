@@ -25,3 +25,7 @@ Restrict search to documentation for a specific language:
 
 	$ dsh -l ruby puts
 
+And a multiple word search query:
+
+	$ dsh -l manpages 'git diff'
+

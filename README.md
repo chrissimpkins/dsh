@@ -38,10 +38,17 @@ Restrict search to documentation for a specific language:
 dsh -l python3 print
 ```
 
+Use a multiple word search:
+```
+dsh -l manpages 'git diff'
+```
+
 ## License
 MIT License
 
 ## Changelog
+
+**v0.2.1** - added support for multiple word queries
 
 **v0.2.0** - exception handling for incorrect CL switches/flags/arguments
 
