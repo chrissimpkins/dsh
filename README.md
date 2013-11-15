@@ -48,6 +48,8 @@ MIT License
 
 ## Changelog
 
+**v0.2.2** - removed repository image (was being pushed with the gem unintentionally...)
+
 **v0.2.1** - added support for multiple word queries
 
 **v0.2.0** - exception handling for incorrect CL switches/flags/arguments
