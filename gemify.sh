@@ -6,7 +6,7 @@
 
 # Enter your gem name below (do not enter version number)
 # or pass it as the first argument to the shell script
-GEM_NAME=""
+GEM_NAME="dsh"
 
 # Don't touch these
 GEMSPEC_SUFFIX=".gemspec"
