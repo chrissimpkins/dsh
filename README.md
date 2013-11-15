@@ -7,6 +7,8 @@ A command line search interface to programming language/framework documentation 
 Install the Ruby gem with the following command:
 
     $ gem install dsh
+    
+You can use the same command to upgrade to a new release.
 
 ## Usage
 
