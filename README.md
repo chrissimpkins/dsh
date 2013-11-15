@@ -20,7 +20,7 @@ To restrict your search to a specific programming language/framework docset, use
 
 You can find the language docset keyword in Preferences > Docsets:
 
-<img src="https://raw.github.com/chrissimpkins/dsh/master/img/docset_keywords.png" width="598" height="530" alt="Dash Docset Keywords">
+<img src="https://raw.github.com/chrissimpkins/dsh/image-include/img/docset_keywords.png" width="598" height="530" alt="Dash Docset Keywords">
 
 Enter the keyword that is displayed in your preferences **without** the colon symbol (:).
 
