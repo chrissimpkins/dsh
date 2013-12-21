@@ -7,7 +7,7 @@ A command line search interface to programming language/framework documentation 
 Install the Ruby gem with the following command:
 
     $ gem install dsh
-    
+
 You can use the same command to upgrade to a new release.
 
 ## Usage
@@ -49,6 +49,7 @@ dsh -l manpages 'git diff'
 MIT License
 
 ## Changelog
+**v0.2.3** - minor fixes to exception handling
 
 **v0.2.2** - removed repository image (was being pushed with the gem unintentionally...)
 
