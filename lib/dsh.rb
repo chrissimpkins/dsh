@@ -19,7 +19,7 @@ module Dsh
 	      exit 1
 	    end
   	rescue => e
-	    STDERR.puts "Kapow! You just blew a gasket. Probably a syntax issue. Please check your options + arguments and try again."
+	    STDERR.puts "Kapow! That's a dsh error. Probably a syntax issue. Please check your options + arguments and try again."
 	    STDERR.puts e.message
 	    exit 1
 	end

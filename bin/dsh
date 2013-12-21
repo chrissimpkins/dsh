@@ -15,7 +15,7 @@ class App
       search_command = Dsh.makeCommand(query, language)
       Dsh.runit(search_command)
     rescue
-      STDERR.puts "Kapow! You just blew a gasket. Probably a syntax issue. Please check your options + arguments and try again."
+      STDERR.puts "Kapow! That's a dsh error. Probably a syntax issue. Please check your options + arguments and try again."
       STDERR.puts e.message
       exit 1
     end
@@ -33,7 +33,7 @@ class App
   begin
     go!
   rescue
-    STDERR.puts "Kapow! dsh just blew a gasket. Probably a syntax issue. Please check your options + arguments and try again."
+    STDERR.puts "Kapow! That's a dsh error. Probably a syntax issue. Please check your options + arguments and try again."
     exit 1
   end
 end
